@@ -1,11 +1,19 @@
 {
-  "expo": {
-    "name": "recipe-app",
-    "slug": "recipe-app",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "recipe-app"
+    "expo": {
+        "name": "Recipe",
+        "slug": "recipe-app",
+        "version": "1.0.0",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "bundleIdentifier": "com.kongwiking.recipe",
+            "buildNumber": "1.0.0"
+        },
+        "android": {
+            "package": "com.kongwiking.recipe",
+            "versionCode": 1
+        }
+    },
+    "name": "recipe-app"
 }
